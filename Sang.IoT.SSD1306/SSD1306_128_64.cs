@@ -8,7 +8,7 @@ namespace Sang.IoT.SSD1306
         /// SSD1306_128_64
         /// </summary>
         /// <param name="i2c_bus">I2C总线ID</param>
-        public SSD1306_128_64(int i2c_bus) : base(128, 64, i2c_bus)
+        public SSD1306_128_64(int i2c_bus, byte address) : base(128, 64, i2c_bus, address)
         {
 
         }
